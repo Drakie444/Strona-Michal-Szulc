@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster+Two&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-darkblue: #001737;
+    --color-deep-purple: #710046; 
+    --color-sapphire: #233e5d;
+    --color-lightblue: #62b9f6;
+    --font-lato: "Lato";
+    --font-bitter: "Bitter", sans-serif; 
+}
+
+@layer base{
+    * {
+        font-family: 'Lato';
+        scroll-behavior: smooth;
+        translate: 0.3s;
+    }
+    .nav-item{
+        @apply px-8 py-2  hover:bg-[#334561] rounded-md whitespace-nowrap;
+    }
+    .card{
+        @apply flex-1 flex flex-col lg:bg-[rgba(40,40,59,0.05)] p-12 justify-between
+    }
+    .card img{
+        @apply order-1 lg:order-0 self-center lg:self-start;
+    }
+    .card h2{
+        @apply order-0 lg:order-1 text-center lg:text-left text-lightblue font-bitter text-xl font-bold 
+    }
+    .card p{
+        @apply order-2 text-lg my-8 mx-4 md:mx-6 lg:m-0;
+    }
+    .card a, button{
+        @apply order-3 rounded-sm bg-sapphire font-bitter text-white w-fit px-8 py-3 text-lg self-center lg:self-start 
+    }
+    
+    input, select, textarea{
+        @apply bg-white my-2 border border-gray-300 placeholder-gray-400 rounded-sm p-2 w-full
+    }
+    select{
+        @apply text-gray-400 text-center
+    }
+    option{
+        @apply text-black text-center font-bold 
+    }
+    li::marker{
+        @apply text-lightblue text-xl
+    }
+    li{
+        @apply text-lg
+    }
+    iframe{
+        @apply w-[90%] aspect-video mx-auto
+    }
+}
+

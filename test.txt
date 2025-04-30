@@ -1,0 +1,28 @@
+<div class="bg-darkblue text-white w-full ">
+
+        <div class="grid grid-cols-1 grid-rows-3 max-w-80  md:grid-cols-[3fr_4fr] md:grid-rows-[3fr_4fr] md:max-w-300 mx-auto px-5">
+            <div class="flex order-0 h-fit md:mt-16 max-w-135">
+                <div class="my-10">
+                    <h1 class="font-extrabold text-[33px] font-bitter lg:text-nowrap">Strategia błękitnego oceanu w nieruchomościach.</h1>
+                    <h1 class="text-[27px] font-bitter text-lightblue">Słuchaj, myśl szybko, działaj strategicznie.
+                    </h1>
+                </div>
+            </div>
+
+            <div class="order-2 md:space-x-5 max-w-135 mb-5">
+                    <div class="text-lg font-lato">
+                    <p><b>Cześć, jestem Michał Szulc. </b> Od 12 lat poszukuję “błękitnego oceanu” na rynku nieruchomości. Aktywnie modeluję działania moich współpracowników, aby osiągać wyraźną przewagę na rynku. Uważam, że kluczem do sukcesu na rynku nieruchomości jest… </p>
+                    </div>
+                <div class="order-3 flex flex-col md:flex-row space-y-5 md:space-y-0 text-center mt-5 space-x-5 md:max-w-135 font-bold text-xl lg:text-2xl m-auto">
+                        <a href="#kontakt"
+                        class="bg-white rounded-md text-darkblue font-bitter p-4 w-full ">Porozmawiajmy</a>
+                        <a href="https://www.filippiechowiak.pl/button/CgZxbCtJW6Xs9V9NHhAoKCttXpZaILRJ"
+                        class="bg-sapphire rounded-md text-white font-bitter p-4 w-full text-nowrap" target="_blank">Pobierz
+                        E-booka</a>
+                </div>
+            
+            </div>
+            <img class="order-1 col-span-1 row-span-1 md:row-span-2 relative z-20 self-center mt-20 top-5 left-10"
+                src="https://images.assets-landingi.com/ToPjNio8pKMrttS4/michal_szulc.png" alt="Michał Szulc">
+        </div>
+    </div>
